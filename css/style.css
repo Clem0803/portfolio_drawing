@@ -161,7 +161,7 @@ nav {
 }
 
 /* Design du bouton menant au CV */
-.bReseaux, .bContact {
+.bReseaux, .bContact, .bHome {
     display: inline-block;
     color: #916efe;
     text-align: center;
@@ -178,16 +178,11 @@ nav {
 
 /* Design des boutons du menu au survol */
 .bContact:hover,
-.bReseaux:hover {
+.bReseaux:hover,
+.bHome:hover {
     background-color: #916efe;
     color: #fff;
     transition-duration: 0.3s;
-}
-
-/* Design du logo présent dans le menu */
-.logo-nav-bar {
-    display: block;
-    margin: auto;
 }
 
 /*----------------------------------------------Mise en forme du footer----------------------------------------------*/
