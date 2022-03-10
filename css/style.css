@@ -189,7 +189,7 @@ nav {
 
 /* Design général du footer */
 footer {
-    background-color: #003afa;
+    background-color: #c7ecff;
     height: auto;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -242,7 +242,7 @@ footer {
 .info {
     margin-top: 2rem;
     text-align: center;
-    color: white;
+    color: black;
     line-height: 2;
 }
 
@@ -251,6 +251,7 @@ footer {
 /* Ajout d'un padding en haut et en bas du texte présent au dessus du hero de la page d'accueil */
 .texte-hero {
     padding: 3.5rem 0;
+    background-color: #B3D5E6;
 }
 
 /* Mise en forme du titre du hero sur la page d'accueil */
@@ -274,8 +275,9 @@ footer {
 .bloc-presentation {
     padding-top: 4rem;
     padding-bottom: 8rem;
-    background-color: #003afa;
-    color: white;
+    /* background-color: #003afa; */
+    background: linear-gradient(to bottom, #B3D5E6, white);
+    color: black;
 }
 
 /*Ajout padding pour tous les côtés du bloc contenant le texte de présentation*/
@@ -296,9 +298,9 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-weight: lighter;
+    font-weight:normal;
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 20px;
     padding-bottom: 4rem;
 }
 
