@@ -185,23 +185,7 @@ nav {
     transition-duration: 0.3s;
 }
 
-/*----------------------------------------------Mise en forme du footer----------------------------------------------*/
-
-/* Design général du footer */
-footer {
-    background-color: #c7ecff;
-    height: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: auto;
-}
-
-/* Centrage des deux boutons du footer */
-.list-icones {
-    text-align: center;
-}
-
-/* Design des icones pour les deux boutons du footer */
+/* Design des icones*/
 .icone {
     font-size: 24px;
     display: inline-block;
@@ -214,17 +198,17 @@ footer {
     color: white;
 }
 
-/* Centrage vertical du contenu des deux boutons du footer */
-.i-footer {
-    color: inherit;
-    vertical-align: -webkit-baseline-middle;
-}
-
 /* Design des deux boutons du footer au survol */
 .icone:hover {
     background-color: white;
     color: #916efe;
 
+}
+
+/* Centrage vertical du contenu des deux boutons du footer */
+.i-footer {
+    color: inherit;
+    vertical-align: -webkit-baseline-middle;
 }
 
 /* Design du contenu des deux boutons du footer au survol */
@@ -233,11 +217,17 @@ footer {
     transition: 0.3s ease-in-out;
 }
 
-/* Couleur du contenu des deux boutons du footer */
-.lien-icone {
-    color: inherit;
-}
+/*----------------------------------------------Mise en forme du footer----------------------------------------------*/
 
+/* Design général du footer */
+footer {
+    background-color: #c7ecff;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: auto;
+    font-size: 14px;
+}
 /* Design des infos présentes dans le footer sous les deux boutons */
 .info {
     margin-top: 2rem;
@@ -245,38 +235,13 @@ footer {
     color: black;
     line-height: 2;
 }
-
-/*----------------------------------------------Mise en forme du hero----------------------------------------------*/
-
-/* Ajout d'un padding en haut et en bas du texte présent au dessus du hero de la page d'accueil */
-.texte-hero {
-    padding: 3.5rem 0;
-    background-color: #B3D5E6;
-}
-
-/* Mise en forme du titre du hero sur la page d'accueil */
-.titre-hero {
-    text-align: center;
-    padding: 1.5rem 0;
-    font-size: 40px;
-}
-
-/* Mise en forme du sous-titre du hero sur la page d'accueil */
-.sous-titre-hero {
-    text-align: center;
-    padding: 1.5rem 0;
-    font-weight: lighter;
-    font-size: 24px;
-}
-
 /*----------------------------------------------Mise en forme du texte de présentation-------------------------------------------*/
 
 /*Design du bloc contenant le texte de présentation*/
 .bloc-presentation {
     padding-top: 4rem;
     padding-bottom: 8rem;
-    /* background-color: #003afa; */
-    background: linear-gradient(to bottom, #B3D5E6, white);
+    background: linear-gradient(to bottom, #b3d5e6, white);
     color: black;
 }
 
@@ -344,20 +309,20 @@ form {
 /*Design du bouton envoyer pour le formulaire de contact*/
 .bForm {
     display: inline-block;
-    color: #00faaa;
+    color: #916efe;
     background-color: #fff;
     padding: 0.875rem 2.5rem;
     text-decoration: none;
     font-size: 18px;
     border-style: solid;
     border-radius: 30px;
-    border-color: #00faaa;
+    border-color: #916efe;
     transition-duration: 0.3s;
 }
 
 /*Design du bouton envoyer pour le formulaire de contact au survol*/
 .bForm:hover {
-    background-color: #00faaa;
+    background-color: #916efe;
     color: #fff;
     transition-duration: 0.3s;
 }
@@ -373,20 +338,14 @@ form {
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
-    box-shadow: 0 0 7px 2px rgba(46, 46, 46, 0.2);
+    box-shadow: 0 0 7px 2px #916efe;
     padding: 1.5rem 0;
 }
+
 
 /*Design du bouton du formulaire*/
 .divButtonForm {
     padding: 1.5rem 0;
-}
-
-/*Design du texte require du formulaire*/
-.require {
-    padding: 0 0 0.5rem 0.8rem;
-    font-size: 12px;
-    text-align: left;
 }
 
 /*Design du label champ nom*/
@@ -413,4 +372,5 @@ textarea {
     border-style: solid;
     font-size: 16px;
     margin-bottom: 1rem;
+    border-color: #916efe;
 }
